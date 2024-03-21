@@ -4,6 +4,12 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    background-color: darkred;
+    color: white;
+    text-align:"center";
+}
+
 p {
     font-family: Arial;
     font-size: 26px;
