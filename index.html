@@ -6,11 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BISHOYCODES.COM</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./navbar.js" async></script>
 </head>
 
-<body style="background-color:white;">
+<body style="background-color:#F4F2EE;">
 
 <h1> Welcome to My Website!</h1>
+<div class="navbar" id="myNavbar">
+  <a class="active" href="#home">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="#articles">Articles</a>
+  <a href="#experimental">Experimental</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 <p style="text-align: center">Hi, my name is Bishoy!</p>
 <img src="bishoy.jpg" 
   alt="This is a picture of me!" 

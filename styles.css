@@ -22,3 +22,62 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:#EAD2AC;
+  color: #000000;
+}
+
+.navbar a.active {
+  background-color: #EAD2AC;
+  color: #000000;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*
+B60909
+000000
+562C0F
+EAD2AC
+1A659E
+*/
