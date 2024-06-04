@@ -2,11 +2,35 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./navbar.js" async></script>
 </head>
-<body>
-    
+
+<body style="background-color:#F4F2EE;">
+
+<div class="navbar" id="myNavbar">
+  <a href="./index.html">Home</a>
+  <a class="active" href="./projects.html">Projects</a>
+  <a href="#articles">Articles</a>
+  <a href="#experimental">Experimental</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="homeBody">
+  <h1>Projects</h1>
+  <a href="https://github.com/lykelly19/Computing-for-Health-and-Medicine-Final">
+    Diabetic Retinopathy Image Multi-Classifier</a>
+  <br/>
+  <a href="https://github.com/bsargius/heart_animation">
+    Python Sine Function Heart Animation</a>
+</div>
+
 </body>
 </html>
