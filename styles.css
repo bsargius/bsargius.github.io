@@ -1,3 +1,7 @@
+body {
+  margin:0;
+}
+
 h1 {
   background-color:darkred;
   color:white;
@@ -23,9 +27,17 @@ img {
   margin-right: auto;
 }
 
+.homeBody {
+  padding:20px;
+  margin-top:30px;
+}
+
 .navbar {
   background-color: #000000;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
