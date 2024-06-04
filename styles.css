@@ -1,23 +1,24 @@
 body {
-  margin:0;
+  background-color: #F3F7EC;
+  margin: 0;
 }
 
 h1 {
-  background-color:darkred;
-  color:white;
-  text-align:center;
+  background-color:#005C78;
+  color: white;
+  text-align: center;
 }
 
 h2 {
-  background-color: darkred;
+  background-color: #005C78;
   color: white;
-  text-align:"center";
+  text-align: "center";
 }
 
 p {
   font-family: Arial;
   font-size: 26px;
-  text-align:left;
+  text-align: left;
 }
 
 img {
@@ -33,7 +34,7 @@ img {
 }
 
 .navbar {
-  background-color: #000000;
+  background-color: #E88D67;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -51,13 +52,13 @@ img {
 }
 
 .navbar a:hover {
-  background-color:#EAD2AC;
-  color: #000000;
+  background-color:#006989;
+  color: #FFFFFF;
 }
 
 .navbar a.active {
-  background-color: #EAD2AC;
-  color: #000000;
+  background-color: #006989;
+  color: #FFFFFF;
 }
 
 .navbar .icon {
