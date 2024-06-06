@@ -29,26 +29,28 @@ img {
 }
 
 .homeBody {
-  padding:20px;
   margin-top:30px;
+  padding:20px;
 }
 
 .navbar {
   background-color: #E88D67;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
   top: 0;
   width: 100%;
 }
 
 .navbar a {
-  float: left;
-  display: block;
   color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block;
+  float: left;
   font-size: 17px;
+  overflow: hidden;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -74,7 +76,7 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {position: sticky;}
   .navbar.responsive a.icon {
     position: absolute;
     right: 0;
