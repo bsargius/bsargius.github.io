@@ -5,7 +5,7 @@
   bishoycodes.com
 </h1>
 
-## Color Reference
+## :art: Color Reference
 | Color            | Hex       |
 | ---------------- | --------- |
 | White            | `#FFFFFF` |
