@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en-us">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BISHOYCODES.COM</title>
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
@@ -10,37 +9,65 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="./navbar.js" async></script>
 </head>
-
-<body>
-
-<div class="navbar" id="myNavbar">
-  <a class="active" href="./">Home</a>
-  <a href="./projects.html">Projects</a>
-  <!--
-  <a href="./articles.html">Articles</a>
-  <a href="./experimental.html">Experimental</a>
-  -->
-  <a href="./contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<div class="homeBody">
-<h1> Welcome to My Website!</h1>
-<p style="text-align: center">Hi, my name is Bishoy!</p>
-<img src="bishoy.jpg" 
-  alt="This is a picture of me!" 
-  class="center"
-  style="width:300px; height:400px;">
-<p>This website is structured to be my own online portfolio. Here I 
-will list many of the coding projects I have done in the past and I 
-hope to showcase many more projects. I might even start adding blogs 
-and random commentary that I find interesting!</p>
-<p>My hobbies include computers, video games, trading card games, 
-anime, and cooking. I also am trying to learn how to skateboard and
-astrophotography. A book I am curently reading right now is Dune.</p>
-</div>
-
-</body>
+  <body>
+    <!-- Navigation -->
+    <div class="navbar" id="myNavbar">
+      <a class="active" href="./">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- Section: About -->
+    <section id="About">
+      <div class="homeBody">
+        <h1 class="myName">Bishoy Sargius</h1>
+        <p style="text-align: center">Software Engineer</p>
+        <p style="text-align: center">I write code to solve real world problems.</p>
+        <img src="bishoy.jpg"
+          alt="This is a picture of me!"
+          class="profileImg"
+          style="width:300px; height:400px;">
+        <div>
+          <p class="aboutParagraph">
+            My hobbies include computers, video games, trading card games, 
+            anime, and cooking. I am also trying to learn astrophotography and skateboarding.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Projects -->
+    <section id="projects">
+      <div class="projects">
+        <div class="row">
+            <div class="card">
+              <a href="https://github.com/lykelly19/Computing-for-Health-and-Medicine-Final">
+                <img src="fundus_CLAHE.png" alt="Fundus Image After CLAHE" style="width:100%">
+                <div class="container">
+                  <p>Diabetic Retinopathy Image Multi-Classifier</p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="https://github.com/bsargius/heart_animation">
+                <img src="heart.png" alt="Heart Made from Sine Function" style="width:100%">
+                <div class="container">
+                    <p>Python Sine Function Heart Animation</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact">
+        <a href="https://www.linkedin.com/in/bishoy-sargius/">
+          Here is my LinkedIn if you would like to connect!
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
