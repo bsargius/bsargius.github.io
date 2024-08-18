@@ -1,13 +1,15 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #EDF7F6;
   margin: 0;
 }
 
 h1.myName {
-  background-color:#005C78;
-  color: white;
+  /*background-color:#778472;*/
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-top: 0px;
+  font-family: Arial;
+  font-size: 26px;
 }
 
 h2.myTitle {
@@ -45,7 +47,7 @@ img.headerImg {
 }
 
 .projects {
-  background-color: #eceff7;
+  background-color: #778472;
 }
 
 .homeBody {
@@ -54,7 +56,7 @@ img.headerImg {
 }
 
 .navbar {
-  background-color: #E88D67;
+  background-color: #0A2239;
   overflow: hidden;
   position: sticky;
   position: -webkit-sticky; /* Safari */
@@ -74,12 +76,12 @@ img.headerImg {
 }
 
 .navbar a:hover {
-  background-color:#006989;
+  background-color:#DF2935;
   color: #FFFFFF;
 }
 
 .navbar a.active {
-  background-color: #006989;
+  background-color: #DF2935;
   color: #FFFFFF;
 }
 
@@ -110,7 +112,7 @@ img.headerImg {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #000000;
   transition: 0.3s;
   width: 40%;
   max-width:300px;
@@ -123,6 +125,7 @@ img.headerImg {
 
 .container {
   padding: 2px 16px;
+  background-color: #eceff7;
 }
 
 * {
