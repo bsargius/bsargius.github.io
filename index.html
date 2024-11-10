@@ -12,7 +12,6 @@
       href="images/favicon-io/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="scripts/navbar.js" async></script>
 </head>
   <body>
@@ -23,6 +22,11 @@
       <a href="#contact">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
         <i class="fa fa-bars"></i>
+        <div class="hamburgerIcon" onclick="hamburgerIconTransition(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
       </a>
     </div>
     <!-- Section: About -->

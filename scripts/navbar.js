@@ -7,3 +7,7 @@ function shrinkNavbar() {
         currentNavbar.className = "navbar";
     }
 }
+
+function hamburgerIconTransition(x) {
+    x.classList.toggle("change");
+  }
