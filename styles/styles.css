@@ -9,16 +9,14 @@
 
 /* Custom Properties */
 :root {
-  --primary-color: #FDFFFC;
-  --accent-color: #0A2239;
-  --secondary-color: #005C78;
-  --one-color: #DF2935;
-  --two-color: #eceff7;
-  --three-color: #8E8358;
-  --offwhite-color: #FDFFFC;
+  --primary-color: #171616;
+  --accent-color: #BDA066;
+  --secondary-color: #1C1C1C;
   --white-color: #FFFFFF;
   --black-color: #000000;
-  --text-color: #939393;
+  --offwhite-color: #FDFFFC;
+  --primary-text-color: #C7C6C6;
+  --secondary-text-color: #968769;
   --font-main: 'Poppins', sans-serif;
   --font-weight-light: 300;
   --font-weight-medium: 500;
@@ -31,42 +29,18 @@ body {
 }
 
 p {
+  color: var(--primary-text-color);
   font-family: Arial;
   font-size: 26px;
   text-align: left;
 }
 
-/* .heroImage {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-      url(/images/sphinx-space.jpg);
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.heroText {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--white-color);
-} */
-
 h1.myName {
-  color: var(--black-color);
+  color: var(--white-color);
   text-align: center;
   margin-top: 0px;
   font-family: Arial;
   font-size: 26px;
-}
-
-h2.myTitle {
-  background-color: var(--secondary-color);
-  color: var(--white-color);
-  text-align: "center";
 }
 
 div.homeBody {
@@ -92,7 +66,7 @@ img.headerImg {
 }
 
 .projects {
-  background-color: var(--three-color);
+  background-color: var(--secondary-color);
 }
 
 .homeBody {
@@ -101,7 +75,7 @@ img.headerImg {
 }
 
 .navbar {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-color);
   overflow: hidden;
   position: sticky;
   position: -webkit-sticky; /* Safari */
@@ -121,12 +95,12 @@ img.headerImg {
 }
 
 .navbar a:hover {
-  background-color: var(--one-color);
+  background-color: var(--accent-color);
   color: var(--white-color);
 }
 
 .navbar a.active {
-  background-color: var(--one-color);
+  background-color: var(--accent-color);
   color: var(--white-color);
 }
 
@@ -183,7 +157,7 @@ img.headerImg {
 }
 
 .card {
-  background-color: var(--offwhite-color);
+  background-color: var(--primary-color);
   box-shadow: 0 4px 8px 0 var(--black-color);
   transition: 0.3s;
   width: 40%;
@@ -197,7 +171,7 @@ img.headerImg {
 
 .container {
   padding: 2px 16px;
-  background-color: var(--offwhite-color);
+  background-color: var(--primary-color);
 }
 
 .row {
