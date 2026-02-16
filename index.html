@@ -1,83 +1,276 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BishoyCodes</title>
-  <link rel="apple-touch-icon" sizes="180x180" 
-      href="images/favicon-io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" 
-      href="images/favicon-io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" 
-      href="images/favicon-io/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/navbar.js" async></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishoy Sargius | Software & AI Engineer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="scripts/scrollAnimations.js" async></script>
+    <script src="scripts/darkLightModeToggle.js" async></script>
 </head>
-  <body>
+<body>
     <!-- Navigation -->
-    <div class="navbar" id="myNavbar">
-      <a class="active" href="./">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="shrinkNavbar()">
-        <i class="fa fa-bars"></i>
-        <div class="hamburgerIcon" onclick="hamburgerIconTransition(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">BishoyCodes.com</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </a>
-    </div>
-    <!-- Section: About -->
-    <section id="About">
-      <div class="homeBody">
-        <h1 class="myName">Bishoy Sargius</h1>
-        <p style="text-align: center">Software Engineer</p>
-        <p style="text-align: center">Code that solves real world problems.</p>
-        <img src="images/bishoy.jpg"
-          alt="This is a picture of me!"
-          class="profileImg"
-          style="width:300px; height:400px;">
+    </nav>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1 class="animated">Bishoy Sargius</h1>
+            <p class="tagline animated delay-1">Software Engineer & <span class="title-highlight">AI Specialist</span></p>
+            <p class="animated delay-2">Building intelligent solutions with code and data</p>
+            <div class="animated delay-3">
+                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+            <div class="animated delay-3" style="margin-top: 40px;">
+                <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    <div style="display: flex; align-items: center; background: rgba(255,255,255,0.1); padding: 8px 15px; border-radius: 30px; backdrop-filter: blur(5px);">
+                        <i class="fas fa-brain" style="margin-right: 8px; color: #FFD700;"></i>
+                        <span>Machine Learning</span>
+                    </div>
+                    <div style="display: flex; align-items: center; background: rgba(255,255,255,0.1); padding: 8px 15px; border-radius: 30px; backdrop-filter: blur(5px);">
+                        <i class="fas fa-robot" style="margin-right: 8px; color: #FFD700;"></i>
+                        <span>Computer Vision</span>
+                    </div>
+                    <div style="display: flex; align-items: center; background: rgba(255,255,255,0.1); padding: 8px 15px; border-radius: 30px; backdrop-filter: blur(5px);">
+                        <i class="fas fa-comment-alt" style="margin-right: 8px; color: #FFD700;"></i>
+                        <span>Cloud Computing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div>
+                <img src="/images/bishoy.jpg" alt="Your Profile" class="profile-pic">
+            </div>
+            <div>
+                <p>Hello! I'm a Software Engineer with a passion for artificial intelligence and machine learning. With a strong foundation in software development, I'm transitioning my career to focus more on AI engineering.</p>
+                <p>My journey began with traditional software development, where I've built scalable applications, user-friendly interfaces, and efficient backend systems. Now, I'm leveraging that experience along with my growing expertise in machine learning, neural networks, and data science to create intelligent systems that can learn, adapt, and solve complex problems.</p>
+                <p>I believe the future of technology lies at the intersection of solid software engineering principles and advanced AI techniques. My goal is to build AI solutions that are not just technically impressive but also reliable, ethical, and impactful.</p>
+                <p>When I'm not coding, you can find me reading research papers, participating in AI competitions, or exploring the outdoors to recharge.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
         <div>
-          <p class="aboutParagraph">
-            My hobbies include computers, video games, trading card games, 
-            anime, and cooking. I am also trying to learn astrophotography and skateboarding.
-          </p>
+            <h3>Software Engineering</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <p>C/C++</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-aws"></i>
+                    <p>AWS</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-docker"></i>
+                    <p>Docker</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-dharmachakra"></i>
+                    <p>Kubernetes</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>SQL/PostgreSQL</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Terraform</p>
+                </div>
+            </div>
         </div>
-      </div>
+        
+        <div class="skills-container">
+            <h3>AI & Machine Learning</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <p>PyTorch</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <p>TensorFlow</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-line"></i>
+                    <p>Scikit-learn</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-eye"></i>
+                    <p>Computer Vision</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <p>Deep Learning</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-table"></i>
+                    <p>Pandas</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cogs"></i>
+                    <p>MLOps</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- Section: Projects -->
+    
+    <!-- Projects Section -->
     <section id="projects">
-      <div class="projects">
-        <div class="row">
-            <div class="card">
-              <a href="https://github.com/lykelly19/Computing-for-Health-and-Medicine-Final">
-                <img src="images/fundus_CLAHE.png" alt="Fundus Image After CLAHE" style="width:100%">
-                <div class="container">
-                  <p>Diabetic Retinopathy Image Multi-Classifier</p>
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/images/website.png" alt="Project 1" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">BishoyCodes.com</h3>
+                    <p>Portfolio Website created to showcase the many projects I have done with more on the way!</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/bsargius/bsargius.github.io"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://bishoycodes.com"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
                 </div>
-              </a>
             </div>
-            <div class="card">
-              <a href="https://github.com/bsargius/heart_animation">
-                <img src="images/heart.png" alt="Heart Made from Sine Function" style="width:100%">
-                <div class="container">
-                    <p>Python Sine Function Heart Animation</p>
+
+            <div class="project-card">
+                <img src="/images/Flappy Portal Cover.png" alt="Project 1" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">Flappy Portal</h3>
+                    <p>Game made in Unity and C# and compiled to HTML5 hosted on itch.io</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">GameDev</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://captbishop.itch.io/flappy-portal"><i class="fas fa-external-link-alt"></i> Play Game</a>
+                    </div>
                 </div>
-              </a>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- Section: Contact -->
+    
+    <!-- Education & Certifications Section -->
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        
+        <h3 style="margin-top: 40px;">Education</h3>
+        <div class="experience-item" style="margin-top: 20px;">
+            <h3 class="experience-title">Bachelor of Science in Computer Science</h3>
+            <p class="experience-company">University of Massachusetts Lowell</p>
+            <p>Graduated Summa Cum Laude. Coursework included Data Structures, Algorithms, Database Systems, and Software Design.</p>
+        </div>
+        
+        <h3 style="margin-top: 40px;">Certifications</h3>
+        <div class="skills-grid" style="margin-top: 20px;">
+            <div class="skill-item">
+                <i class="fas fa-certificate"></i>
+                <p>AWS Certified Solutions Architect</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-certificate"></i>
+                <p>CompTIA Security+</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AI Research Interests -->
+    <section id="research">
+        <h2>AI Research Interests</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Natural Language Processing</h3>
+                    <p>Exploring transformer architectures, large language models, and multilingual understanding. Currently following developments in few-shot learning and prompt engineering techniques.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Reinforcement Learning</h3>
+                    <p>Interested in applying RL to real-world problems, particularly multi-agent systems and robotic control. Following research in efficient exploration and transfer learning.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">AI Ethics & Fairness</h3>
+                    <p>Researching methods to detect and mitigate bias in machine learning models. Passionate about developing AI systems that are transparent, explainable, and equitable.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">ML Systems Design</h3>
+                    <p>Exploring efficient architectures for deploying ML at scale. Interested in model compression, quantization, and hardware-aware neural network design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
     <section id="contact">
-      <div class="contact">
-        <a href="https://www.linkedin.com/in/bishoy-sargius/">
-          Here is my LinkedIn if you would like to connect!
-        </a>
-      </div>
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bishoy-sargius/" class="social-link">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+                    <a href="https://github.com/bsargius" class="social-link">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-  </body>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Bishoy Sargius. All rights reserved.</p>
+            <p>Software Engineer & AI Specialist</p>
+        </div>
+    </footer>
+    
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
 </html>
