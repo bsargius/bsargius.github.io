@@ -8,8 +8,11 @@
 ## :art: Color Reference
 | Color            | Hex       |
 | ---------------- | --------- |
-| White            | `#FFFFFF` |
-| Off White        | `#F3F7EC` |
-| Murky Blue       | `#005C78` |
-| Light Murky Blue | `#006989` |
-| Peach            | `#E88D67` |
+| Primary          | `#904E55` |
+| Secondary        | `#252627` |
+| Tetriery         | `#B68F40` |
+| Quadrary         | `#fc03e7` |
+| Five             | `#038cfc` |
+| Light            | `#F2EFE9` |
+| Dark             | `#252627` |
+| Accent           | `#e74c3c` |
