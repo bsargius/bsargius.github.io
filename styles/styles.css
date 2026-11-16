@@ -9,13 +9,13 @@
 
 /* Custom Properties */
 :root {
-    --primary-color: #171616;
-    --accent-color: #BDA066;
-    --secondary-color: #1C1C1C;
+    --primary-color: #eee5e9;
+    --accent-color: #F4AC45;
+    --secondary-color: #7c7c7c;
     --white-color: #FFFFFF;
     --black-color: #000000;
     --offwhite-color: #FDFFFC;
-    --primary-text-color: #C7C6C6;
+    --primary-text-color: #000000;
     --secondary-text-color: #968769;
     --font-main: 'Poppins', sans-serif;
     --font-weight-light: 300;
@@ -66,7 +66,7 @@ img.headerImg {
 }
 
 .projects {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .homeBody {
@@ -76,11 +76,11 @@ img.headerImg {
 
 .navbar {
     background-color: var(--secondary-color);
-  overflow: hidden;
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
-  top: 0;
-  width: 100%;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
@@ -96,12 +96,12 @@ img.headerImg {
 
 .navbar a:hover {
     background-color: var(--accent-color);
-  color: var(--white-color);
+    color: var(--white-color);
 }
 
 .navbar a.active {
     background-color: var(--accent-color);
-  color: var(--white-color);
+    color: var(--white-color);
 }
 
 .navbar .icon {
@@ -158,11 +158,11 @@ img.headerImg {
 
 .card {
     background-color: var(--primary-color);
-  box-shadow: 0 4px 8px 0 var(--black-color);
-  transition: 0.3s;
-  width: 40%;
-  max-width:300px;
-  border-radius:5px;
+    box-shadow: 0 4px 8px 0 var(--black-color);
+    transition: 0.3s;
+    width: 40%;
+    max-width:300px;
+    border-radius:5px;
 }
 
 .card:hover {
